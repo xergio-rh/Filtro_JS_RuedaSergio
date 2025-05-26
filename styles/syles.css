@@ -22,7 +22,7 @@ body {
 }
 
 
-.image_icon {
+#image_icon {
     position: relative;
     width: 8vw;
     left: 15vw;
@@ -38,7 +38,7 @@ body {
     display: grid;
 }
 
-.navbar {
+#navbar {
     position: relative;
     font-family: "letra";
     border-radius: 20px;
@@ -75,4 +75,23 @@ body {
     text-align: center;
 
 
+}
+
+.home {
+    position: relative;
+    font-family: "titulo";
+    font-size: 1.5vw;
+    color: orange;
+    left: 50vw;
+    top: -25.5vh;
+
+}
+
+.division2 {
+    position: relative;
+    background-color: orange;
+    width: 90vw;
+    height: 0.1vh;
+    margin-top: 4vh;
+    margin-left: 5vw;
 }
