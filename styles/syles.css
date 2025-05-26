@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "titulo";
+    src: url(../storage/fonts/Sauce\ Tomato.otf);
+}
+
+@font-face {
+    font-family: "letra";
+    src: url(../storage/fonts/Cafe\ Francoise_D.otf);
+}
+
+
+body {
+    background-color: rgb(58, 53, 53);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.container_header {
+    position: relative;
+    height: 14vh;
+}
+
+
+.image_icon {
+    position: relative;
+    width: 8vw;
+    left: 15vw;
+}
+
+.titulo {
+    position: relative;
+    font-family: "titulo";
+    color: orange;
+    left: 25vw;
+    top: -15vh;
+    font-size: 2vw;
+    display: grid;
+}
+
+.navbar {
+    position: relative;
+    font-family: "letra";
+    border-radius: 20px;
+    width: 25vw;
+    height: 4vh;
+    left: 40vw;
+    top: -25.5vh;
+    font-size: 1vw;
+}
+
+.division {
+    position: relative;
+    background-color: orange;
+    width: 90vw;
+    height: 0.1vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+}
+
+.subtitle {
+    position: relative;
+    font-family: "titulo";
+    font-size: 2vw;
+    top: 2vw;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    position: relative;
+    font-family: "letra";
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+
+
+}
